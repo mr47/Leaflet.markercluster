@@ -3,6 +3,21 @@
  https://github.com/Leaflet/Leaflet.markercluster
  (c) 2012-2013, Dave Leaver, smartrak
 */
+(function(root, factory) {
+
+  if (typeof exports !== 'undefined') {
+    // Define as CommonJS export:
+    module.exports = factory(require("leaflet"));
+  } else if (typeof define === 'function' && define.amd) {
+    // Define as AMD:
+    define(["leaflet", factory);
+  } else {
+    // Just run it:
+    factory(root.L);
+  }
+
+}(this, function(L) {
+
 (function (window, document, undefined) {/*
  * L.MarkerClusterGroup extends L.FeatureGroup by clustering the markers contained within
  */
@@ -2161,3 +2176,5 @@ L.MarkerClusterGroup.include({
 
 
 }(window, document));
+
+}));
