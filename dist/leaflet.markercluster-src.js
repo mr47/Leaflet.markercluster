@@ -2,6 +2,11 @@
  Leaflet.markercluster, Provides Beautiful Animated Marker Clustering functionality for Leaflet, a JS library for interactive maps.
  https://github.com/Leaflet/Leaflet.markercluster
  (c) 2012-2013, Dave Leaver, smartrak
+
+ updated by Dmitry.Poddubniy aka mr47
+ 
+ (c) 2015, Dmitry Poddubniy, mr47
+
 */
 (function(root, factory) {
 
@@ -10,15 +15,14 @@
     module.exports = factory(require("leaflet"));
   } else if (typeof define === 'function' && define.amd) {
     // Define as AMD:
-    define(["leaflet", factory);
+    define(["leaflet"], factory);
   } else {
     // Just run it:
     factory(root.L);
   }
 
 }(this, function(L) {
-
-(function (window, document, undefined) {/*
+ /*
  * L.MarkerClusterGroup extends L.FeatureGroup by clustering the markers contained within
  */
 
@@ -2173,8 +2177,5 @@ L.MarkerClusterGroup.include({
 		}
 	}
 });
-
-
-}(window, document));
 
 }));
