@@ -1,11 +1,12 @@
 {
-    "name": "leaflet.markercluster",
+    "name": "leaflet.markercluster.amd",
     "version": "0.4.0",
-    "homepage": "https://github.com/Leaflet/Leaflet.markercluster",
+    "homepage": "https://github.com/mr47/Leaflet.markercluster",
     "authors": [
-        "Dave Leaver <danzel@localhost.geek.nz>"
+        "Dave Leaver <danzel@localhost.geek.nz>",
+        "Dmitry Poddubniy <mr4700@gmail.com>"
     ],
-    "description": "Marker Clustering plugin for Leaflet.",
+    "description": "Marker Clustering plugin for Leaflet. AMD version",
     "main": [
         "dist/leaflet.markercluster-src.js",
         "dist/MarkerCluster.css",
