@@ -144,6 +144,8 @@ Performance optimizations could be done so these are handled more gracefully (Ru
 
 ### License
 
-Leaflet.markercluster is free software, and may be redistributed under the MIT-LICENSE.
+Leaflet.markercluster is free software, and may be redistributed under the MIT-LICENSE. 
+Plus aditional to MIT-LICENSE:
+This software can not be used for commercial purposes without the written permission of the author.
 
 [![Build Status](https://travis-ci.org/Leaflet/Leaflet.markercluster.png?branch=master)](https://travis-ci.org/Leaflet/Leaflet.markercluster)
